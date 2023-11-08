@@ -41,33 +41,37 @@ function Registro() {
 
     return (
         <div className="container">
-            <div>
-                <h2>Cadastre-se</h2>
+            <div className='content-headline'>
+                <h2>Cadastrar Contato</h2>
             </div>
 
-            <form onSubmit={(e) => criarContato(e)}>
-                <div>
+            <form onSubmit={(e) => criarContato(e)} className='form'>
+                <div className='content-input'>
                     <label htmlFor="nome">
-                        <span>Nome:</span>
-                        <input type="text" name="nome" id="nome" onChange={(e) => setNome(e.target.value)} />
+                        <span>Nome</span>
+                        <input placeholder="Digite o Nome do Contato" type="text" name="nome" id="nome" onChange={(e) => setNome(e.target.value)} />
                     </label>
                 </div>
 
-                <div>
+                <div className='content-input'>
                     <label htmlFor="idade">
-                        <span>Idade:</span>
-                        <input type="number" name="idade" id="idade" onChange={(e) => setIdade(e.target.value)} />
+                        <span>Idade</span>
+                        <input placeholder="Digite a idade do Contato" type="number" name="idade" id="idade" onChange={(e) => setIdade(e.target.value)} />
                     </label>
                 </div>
 
-                <div>
+                <div className='content-input'>
                     <label htmlFor="telefone">
-                        <span>Telefone:</span>
-                        <input type="text" name="telefone" id="telefone" onChange={(e) => setNumero(e.target.value)} />
+                        <span>Telefone</span>
+                        <input placeholder="Digite o Telefone do Contato" type="text" name="telefone" id="telefone" onChange={(e) => setNumero(e.target.value)} />
                     </label>
                 </div>
+                 
 
                 <button onClick={handleLista} type="submit">Cadastrar</button>
+
+        
+               
             </form>
         </div>
     );

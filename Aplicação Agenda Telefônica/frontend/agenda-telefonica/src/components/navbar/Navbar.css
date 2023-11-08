@@ -1,0 +1,73 @@
+.cabecalho{
+    width: 100%;
+}
+
+
+header{
+
+    padding:20px;
+    display:flex;
+    width: 100%;
+
+
+
+}
+
+header nav{
+
+    width: 100%;
+}
+
+header nav ul{
+    list-style: none;
+
+ 
+}
+
+header nav ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-content{
+
+    display: flex;
+    gap:50px;
+
+}
+
+.menu-content li{
+
+    border-bottom: 1px solid transparent;
+
+}
+
+.menu-content li:hover{
+
+    border-bottom: 1px solid black;
+}
+
+.logo{
+    background-color: aqua;
+    padding:10px;
+    border-radius: 15px;
+    font-weight: bold;
+    color:black; 
+}
+
+.logo li{
+
+    border-bottom: 1px solid transparent;
+
+
+}
+
+.logo li:hover{
+
+    border-bottom: 1px solid black;
+
+}
+
+
+

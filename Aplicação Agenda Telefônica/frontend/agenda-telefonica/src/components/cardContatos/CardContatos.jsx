@@ -4,8 +4,6 @@ import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import agendaFetch from '../../axios/config'
 import { useContato } from '../../contexts/ContatoProvider'
-import fs from 'fs'
-import path from 'path'
 
 
 function CardContatos() {
@@ -31,24 +29,6 @@ function CardContatos() {
   }
 
   const deletarContato = (id)=>{
-
-const dados = 'Usuário deletado';
-
-const arquivo = "../../dados.txt"
-
-// Escreve os dados no arquivo de texto
-fs.writeFile(arquivo, dados, (err) => {
-    if (err) {
-        console.error('Erro ao escrever no arquivo:', err);
-    } else {
-        console.log('Dados foram escritos com sucesso no arquivo:', arquivo);
-    }
-});
-
-
-
-
-
 
     agendaFetch.delete("/contatos/" + id)
 

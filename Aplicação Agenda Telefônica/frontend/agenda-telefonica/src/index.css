@@ -3,5 +3,33 @@
     margin:0;
     padding:0;
     font-family: Arial;
+    text-decoration: none;
 
+}
+
+button{
+
+    width:47%;
+    padding:5px;
+    border-radius: 5px;
+    border:1px solid transparent;
+    cursor:pointer;
+
+    color:white;
+    font-size:16px;
+    font-weight: bold;
+
+    background-color: rgba(9,121,110,1);
+
+    margin-top:1px;
+}
+
+button:hover{
+
+    border: 1px solid black;
+}
+
+button:active{
+
+    opacity:0.6;
 }
