@@ -1,0 +1,9 @@
+.container > h2{
+
+    color:white;
+    font-size:40px;
+    width: 28%;
+    margin:0 auto;
+    border-bottom: 1px solid black;
+    
+}

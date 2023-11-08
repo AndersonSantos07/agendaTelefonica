@@ -1,0 +1,92 @@
+.container-contatos{
+    width:80%;
+    height: 100%;
+    margin:0 auto;
+    padding:20px;
+    display:flex;
+    gap:100px;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 255, 0.123);
+    box-shadow: 3px 4px 9px black;
+}
+
+.content-card{
+
+    
+    display: flex;
+    align-items: center;
+    gap:30px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.card-contatos{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,255,226,1) 4%, rgba(0,212,255,1) 54%);
+    padding:25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px;
+
+
+}
+
+.card-contatos h3{
+
+    text-align: center;
+    font-size: 20px;
+    width:253px;
+    height: 50px;
+
+
+}
+
+.card-contatos p{
+
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.card-contatos button{
+
+    height: 40px;
+
+
+
+}
+
+.container-button{
+
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.headline{
+
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+
+.div-button{
+    width: 100%;
+    text-align: center;
+}
+
+.div-button button{
+
+    margin-top: 10px;
+    width:17%
+}
+
+.div-button p{
+
+    font-size: 18px;
+}
